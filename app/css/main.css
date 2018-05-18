@@ -122,6 +122,17 @@ body {
       padding-left: 0px; }
       .aboutPage ul li a {
         color: #fff; }
+  .aboutPage .btn {
+    position: relative;
+    padding: 10px 30px;
+    background-color: #2b85c2;
+    color: #fff;
+    top: 80px;
+    border-radius: 50px;
+    transition: 0.5s; }
+    .aboutPage .btn:hover {
+      background-color: #3498db;
+      box-shadow: 0 1px 25px rgba(67, 196, 189, 0.4); }
 
 @media screen and (max-width: 768px) {
   #videoBox {
