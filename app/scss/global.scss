@@ -146,5 +146,15 @@ body{
   img{
     max-width: 150px;
   }
+  ul{
+    padding-left: 0px;
+    li{
+      list-style: none;
+      padding-left: 0px;
+      a{
+        color:#fff;
+      }
+    }
+  }
 }
 @import "responsive";

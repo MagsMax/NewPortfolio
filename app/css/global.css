@@ -115,6 +115,13 @@ body {
     padding-bottom: 20px; }
   .aboutPage img {
     max-width: 150px; }
+  .aboutPage ul {
+    padding-left: 0px; }
+    .aboutPage ul li {
+      list-style: none;
+      padding-left: 0px; }
+      .aboutPage ul li a {
+        color: #fff; }
 
 @media screen and (max-width: 768px) {
   #videoBox {
