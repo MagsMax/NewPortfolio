@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+  #videoBox{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -4;
+    top: -3px;
+    video{
+      display: none;
+    }
+    .poster{
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      display: inherit !important;
+    }
+  }
+  .homePage{
+    .page__bar{
+      width: 200px;
+      margin-left: -100px;
+    }
+    h2{
+      font-size: 19px;
+    }
+  }
+}
