@@ -1,5 +1,6 @@
 body {
-  background-color: #131418; }
+  background-color: #131418;
+  font-family: poppins; }
 
 .pad {
   padding: 0px;
@@ -133,6 +134,28 @@ body {
     .aboutPage .btn:hover {
       background-color: #3498db;
       box-shadow: 0 1px 25px rgba(67, 196, 189, 0.4); }
+
+.resumePage {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .resumePage .resumePage__title {
+    margin-top: 5px; }
+    .resumePage .resumePage__title span {
+      padding-bottom: 10px;
+      border-bottom: 3px solid #3498db; }
+  .resumePage .resumePage__date {
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding-bottom: 20px; }
+  .resumePage .resumePage__description {
+    padding-bottom: 60px;
+    color: #5d5d5d; }
+  .resumePage .resumePage__box {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #b3b3b3; }
+    .resumePage .resumePage__box h3 {
+      font-weight: 400; }
 
 @media screen and (max-width: 768px) {
   #videoBox {

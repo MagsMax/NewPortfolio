@@ -5,6 +5,7 @@
 
 body{
   background-color: $color2;
+  font-family: $font02;
 }
 .pad{
   padding: 0px;
@@ -154,6 +155,47 @@ body{
       a{
         color:#fff;
       }
+    }
+  }
+  .btn{
+    position: relative;
+    padding: 10px 30px;
+    background-color: $color1-darker;
+    color: #fff;
+    top: 80px;
+    border-radius: 50px;
+    transition: 0.5s;
+    &:hover{
+      background-color: $color1;
+      box-shadow: 0 1px 25px rgba(67, 196, 189, 0.4);
+    }
+  }
+}
+.resumePage{
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .resumePage__title{
+    margin-top: 5px;
+    span{
+      padding-bottom: 10px;
+      border-bottom: 3px solid $color1;
+    }
+  }
+  .resumePage__date{
+    font-size: 13px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+  }
+  .resumePage__description{
+    padding-bottom: 60px;
+    color:rgb(93, 93, 93) ;
+  }
+  .resumePage__box{
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    h3{
+      font-weight: 400;
     }
   }
 }
