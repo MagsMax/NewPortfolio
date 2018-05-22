@@ -7,6 +7,9 @@ body{
   background-color: $color2;
   font-family: $font02;
 }
+.spacing{
+  padding-bottom: 40px;
+}
 .pad{
   padding: 0px;
   margin: 0px;
@@ -69,12 +72,7 @@ body{
     font-family: $font01;
     padding-bottom: 20px;
   }
-  p{
-    color: #fff;
-    font-size: 19px;
-    font-weight: 200;
-    padding:40px;
-  }
+
   a{
     font-family: $font02;
     color: #fff;
@@ -100,6 +98,7 @@ body{
     margin-bottom: 30px;
   }
 }
+
 .navbarr{
   position: relative;
   background-color: $color2;
@@ -141,7 +140,7 @@ body{
     padding-bottom: 20px;
   }
   p{
-
+    line-height: 29px;
     padding-bottom: 20px;
   }
   img{
@@ -171,10 +170,11 @@ body{
     }
   }
 }
+
 .resumePage{
-  background-color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-color: #e8e8e8;
+  padding-top: 80px;
+  padding-bottom: 80px;
   .resumePage__title{
     margin-top: 5px;
     span{
@@ -185,18 +185,42 @@ body{
   .resumePage__date{
     font-size: 13px;
     letter-spacing: 3px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    color:rgb(60, 60, 60) ;
   }
   .resumePage__description{
-    padding-bottom: 60px;
-    color:rgb(93, 93, 93) ;
+    padding-bottom: 50px;
+    color:rgb(101, 101, 101) ;
+  }
+  .resumePage__tag{
+    padding: 1px 15px;
+    background-color: $color1;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
   }
   .resumePage__box{
-    padding-bottom: 25px;
+    padding-top: 50px;
     border-bottom: 1px solid rgb(179, 179, 179);
     h3{
       font-weight: 400;
     }
+  }
+}
+
+.worksPage{
+  padding: 10px 0px;
+  p{
+    margin: 0 auto;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  img{
+    margin: 0 auto;
+    padding-right: 10px;
   }
 }
 @import "responsive";

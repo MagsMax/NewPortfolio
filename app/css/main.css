@@ -2,6 +2,9 @@ body {
   background-color: #131418;
   font-family: poppins; }
 
+.spacing {
+  padding-bottom: 40px; }
+
 .pad {
   padding: 0px;
   margin: 0px; }
@@ -53,11 +56,6 @@ body {
     color: #fff;
     font-family: mr dafoe;
     padding-bottom: 20px; }
-  .homePage p {
-    color: #fff;
-    font-size: 19px;
-    font-weight: 200;
-    padding: 40px; }
   .homePage a {
     font-family: poppins;
     color: #fff;
@@ -113,6 +111,7 @@ body {
     letter-spacing: 2px;
     padding-bottom: 20px; }
   .aboutPage p {
+    line-height: 29px;
     padding-bottom: 20px; }
   .aboutPage img {
     max-width: 150px; }
@@ -136,9 +135,9 @@ body {
       box-shadow: 0 1px 25px rgba(67, 196, 189, 0.4); }
 
 .resumePage {
-  background-color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  background-color: #e8e8e8;
+  padding-top: 80px;
+  padding-bottom: 80px; }
   .resumePage .resumePage__title {
     margin-top: 5px; }
     .resumePage .resumePage__title span {
@@ -147,15 +146,35 @@ body {
   .resumePage .resumePage__date {
     font-size: 13px;
     letter-spacing: 3px;
-    padding-bottom: 20px; }
+    padding-bottom: 10px;
+    color: #3c3c3c; }
   .resumePage .resumePage__description {
-    padding-bottom: 60px;
-    color: #5d5d5d; }
+    padding-bottom: 50px;
+    color: #656565; }
+  .resumePage .resumePage__tag {
+    padding: 1px 15px;
+    background-color: #3498db;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center; }
   .resumePage .resumePage__box {
-    padding-bottom: 25px;
+    padding-top: 50px;
     border-bottom: 1px solid #b3b3b3; }
     .resumePage .resumePage__box h3 {
       font-weight: 400; }
+
+.worksPage {
+  padding: 10px 0px; }
+  .worksPage p {
+    margin: 0 auto;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px; }
+  .worksPage img {
+    margin: 0 auto;
+    padding-right: 10px; }
 
 @media screen and (max-width: 768px) {
   #videoBox {
